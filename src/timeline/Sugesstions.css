@@ -3,16 +3,16 @@
     margin-right: 20px;
   }
   
-  .suggestions_title {
+  .suggestions__title {
     color: grey;
     font-weight: bold;
   }
   
-  .username_left {
+  .username__left {
     display: inline-flex;
   }
   
-  .username_info {
+  .username__info {
     display: flex;
     flex-direction: column;
     margin-left: 7px;
@@ -23,13 +23,13 @@
     font-size: 12px;
   }
   
-  .suggestions_username {
+  .suggestions__username {
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
   }
   
-  .follow_button {
+  .follow__button {
     color: #0095f6;
     font-weight: bold;
     background: 0;
@@ -37,7 +37,7 @@
     margin-right: 5px;
   }
   
-  .follow_button:hover {
+  .follow__button:hover {
     color: white;
     cursor: pointer;
   }

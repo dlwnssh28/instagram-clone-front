@@ -3,10 +3,10 @@
     flex-direction: row;
 }
 
-.homepage_nav{
+.homepage__nav{
     flex: 0.2;
 }
 
-.homepage_timeline{
+.homepage__timeline{
     flex: 0.8;
 }

@@ -3,10 +3,10 @@
     flex-direction: row;
 }
 
-.timeline_left{
+.timeline__left{
     flex: 0.7;
 }
 
-.timeline_right{
+.timeline__right{
     flex: 0.3;
 }
