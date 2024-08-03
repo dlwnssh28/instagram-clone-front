@@ -4,7 +4,7 @@ import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import SearchIcon from "@mui/icons-material/Search";
 import ExploreOutlinedIcon from "@mui/icons-material/ExploreOutlined";
 import SlideshowIcon from "@mui/icons-material/Slideshow";
-import ChatOutlinedIcon from "@mui/icons-material/ChatOutlined";
+import TelegramIcon from "@mui/icons-material/Telegram";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import AddBoxOutlinedIcon from "@mui/icons-material/AddBoxOutlined";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -20,43 +20,43 @@ function Sidenav() {
       <div className="sidenav__buttons">
         <button className="sidenav__button">
             <HomeOutlinedIcon />
-            <span>홈</span>
+            <span className="sidenav__text">홈</span>
         </button>
         
         <button className="sidenav__button">
             <SearchIcon />
-            <span>검색</span>
+            <span className="sidenav__text">검색</span>
         </button>
         
         <button className="sidenav__button">
             <ExploreOutlinedIcon />
-            <span>탐색 탭</span>
+            <span className="sidenav__text">탐색 탭</span>
         </button>
         
         <button className="sidenav__button">
             <SlideshowIcon />
-            <span>릴스</span>
+            <span className="sidenav__text">릴스</span>
         </button>
         
         <button className="sidenav__button">
-            <ChatOutlinedIcon />
-            <span>메세지</span>
+            <TelegramIcon />
+            <span className="sidenav__text">메세지</span>
         </button>
         
         <button className="sidenav__button">
             <FavoriteBorderIcon />
-            <span>알림</span>
+            <span className="sidenav__text">알림</span>
         </button>
         
         <button className="sidenav__button">
             <AddBoxOutlinedIcon />
-            <span>만들기</span>
+            <span className="sidenav__text">만들기</span>
         </button>
       </div>
       <div className="sidenav__more">
         <button className="sidenav__button">
             <MenuIcon />
-            <span>더 보기</span>
+            <span className="sidenav__text">더 보기</span>
         </button>
       </div>
     </div>
